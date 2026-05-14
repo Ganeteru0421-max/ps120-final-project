@@ -320,6 +320,44 @@ main {
   color: var(--color-muted);
 }
 
+/* —— Map figures (week 2) —— */
+.map-figure {
+  margin: 1.75rem 0;
+  padding: 0;
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+  overflow: hidden;
+}
+
+.map-figure img {
+  border-radius: 0;
+  width: 100%;
+}
+
+.map-figure figcaption {
+  padding: 0.85rem 1rem 1rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+.map-figure .map-source-link {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--color-muted);
+}
+
+.map-embed-frame {
+  display: block;
+  width: 100%;
+  height: min(420px, 70vw);
+  border: 0;
+  border-radius: var(--radius-md);
+  background: var(--color-bg);
+}
+
 /* —— References —— */
 .references-list {
   padding-left: 1.35rem;
